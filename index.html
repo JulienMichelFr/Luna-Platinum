@@ -2,14 +2,35 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>JPath</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="app.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div id="main-container">
+    <pre id="json">
+        {
+            "test": 5
+        }
+    </pre>
+
+    <pre id="result">
+    </pre>
+</div>
+<div id="bottom-container">
+    <input placeholder="$[*].result" id="path" type="text">
+    <button id="translate">Go</button>
+    <button id="format">Format</button>
+</div>
+
+
+
+
+<script src="node_modules/jsonpath-plus/lib/jsonpath.js"></script>
+<script src="node_modules/ace-builds/src/ace.js" charset="UTF-8"></script>
+<script src="node_modules/js-beautify/js/lib/beautify.js"></script>
+<script src="app.js"></script>
   </body>
 
   <script>

@@ -1,10 +1,12 @@
 {
-  "name": "electron-quick-start",
+  "name": "JPath",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "build --dir",
+    "dist": "build"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -23,6 +25,10 @@
     "normalize.css": "^5.0.0"
   },
   "devDependencies": {
-    "electron": "^1.4.1"
+    "electron": "^1.4.1",
+    "electron-builder": "^10.15.1"
+  },
+  "build": {
+    "appId": "jpath"
   }
 }

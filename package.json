@@ -1,5 +1,5 @@
 {
-  "name": "JPath",
+  "name": "Luna-Platinum",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
@@ -29,7 +29,7 @@
     "electron-builder": "^10.15.1"
   },
   "build": {
-    "appId": "jpath",
+    "appId": "luna.platinum",
     "category": "public.app-category.developer-tools"
   }
 }

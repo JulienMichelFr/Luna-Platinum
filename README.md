@@ -1,4 +1,4 @@
-# JPath, Deadly simple JSON-path app
+# Luna Platinum, Deadly simple JSON-path app
 
 ![Demo](demo.png)
 
